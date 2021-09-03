@@ -16,6 +16,6 @@ class My2ndTest extends TestCase
     {
         $response = $this->get('/campus');
 
-        $response->assertStatus(404);
+        $response->assertStatus(200);
     }
 }
