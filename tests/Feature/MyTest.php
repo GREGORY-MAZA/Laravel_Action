@@ -12,7 +12,7 @@ class MyTest extends TestCase
      *
      * @return void
      */
-    public function test_myFuncTest()
+    public function test_my_func_Test()
     {        
         $myArray = [1, 2, 3];
         $result = array_sum($myArray);
