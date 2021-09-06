@@ -15,7 +15,7 @@ class My2ndTest extends TestCase
     public function test_campus_page()
     {
         $response = $this->get('/campus');
-
+        $response->assertSee('Hello');
         $response->assertStatus(200);
     }
 }
